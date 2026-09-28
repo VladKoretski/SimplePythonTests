@@ -1,0 +1,51 @@
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Дистрибутивы и сборка
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Покрытие тестами
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+.nox/
+
+# Кэши линтеров и типизаторов
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Локальные настройки и секреты
+*.local
+.env
